@@ -1,11 +1,9 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+# Readme Genaator
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description:
-  ${data.text}
+  kjfkldf
 
   ## Table of Contents
   - [Description](#description)
@@ -16,32 +14,28 @@ function generateMarkdown(data) {
   - [Additional Info](#github)
 
   ## Installation:
-  ${data.installation}
+  fdlklf
 
   ## Usage
-  ${data.usage}
+  kldfkl;d
 
   ## License
   
- ${data.license}
+ MIT License
 
  ## Contribution:
- ${data.contribution}
+ kfl;fs
 
  ## Test
- ${data.test}
+ ks;sd
 
  ## Questions
 
   If you have any question you can email me our find me in my GitHub:
     
-     * GitHub: (https://github.com/${data.github}))
-     * Email: ${data.email}
+     * GitHub: (https://github.com/lsd;))
+     * Email: pdl;d
 
 
 
 
-`;
-}
-
-module.exports = generateMarkdown;
