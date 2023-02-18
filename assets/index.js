@@ -66,7 +66,7 @@ const questions = [
   {
     type: `list`,
     message: `Choose a license for your project..`,
-    name: `license`,
+    name: `licenses`,
     choices: [
       `None`,
       `Apache License 2.0`,
