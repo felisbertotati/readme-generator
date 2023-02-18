@@ -153,7 +153,11 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {}
+function init() {
+  inquirer.prompt(questions).then((userInput) => {
+    writeToFile(`README.md`, generateMarkdown(userInput));
+  });
+}
 
 // function call to initialize program
 init();
