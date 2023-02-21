@@ -1,3 +1,5 @@
+//added switch for license badge
+
 let licenseBadge = (license) => {
   let badge;
   switch (license) {
@@ -42,16 +44,51 @@ let licenseBadge = (license) => {
       break;
   }
   if (license !== "None") {
-    return `![${License}](https://img.shields.io/badge/license-${badge}-blue.svg)`;
+    return `![${license}](https://img.shields.io/badge/license-${badge}-blue.svg)`;
   }
   return "";
+};
+
+// Added switch for license link
+
+let licenseLink = (link) => {
+  if (link !== "None") {
+    switch (link) {
+      case "Apache License 2.0":
+        return "https://opensource.org/licenses/Apache-2.0/";
+      case "GNU General Public License v3.0":
+        return "https://www.gnu.org/licenses/gpl-3.0/";
+      case "MIT License":
+        return "https://opensource.org/licenses/MIT";
+      case `BSD 2-Clause "Simplified" License`:
+        return "https://opensource.org/licenses/BSD-2-Clause";
+      case `BSD 3-Clause "New" or "Revised" License`:
+        return "https://opensource.org/licenses/BSD-3-Clause/";
+      case "Boost Software License 1.0":
+        return "https://www.boost.org/LICENSE_1_0.txt";
+      case "Creative Commons Zero v1.0 Universal":
+        return "http://creativecommons.org/publicdomain/zero/1.0/";
+      case "Eclipse Public License 2.0":
+        return "https://opensource.org/licenses/EPL-1.0";
+      case "GNU Affero General Public License v3.0":
+        return "https://www.gnu.org/licenses/gpl-3.0";
+      case "GNU General Public License v2.0":
+        return "https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html";
+      case "GNU Lesser General Public License v2.1":
+        return "https://www.gnu.org/licenses/lgpl-3.0";
+      case "Mozilla Public License 2.0":
+        return "https://opensource.org/licenses/MPL-2.0";
+      case "The Unlicense":
+        return "http://unlicense.org/";
+    }
+  }
 };
 
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-
-  ${licenseBadge(data.license)}
+ 
+  ${licenseBadge(data.licenses)}
 
   ## Description:
   ${data.text}
@@ -73,6 +110,8 @@ function generateMarkdown(data) {
   ## License
   
  ${data.licenses}
+
+ ${licenseLink(data.licenses)}
 
  ## Contribution:
  ${data.contribution}

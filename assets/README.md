@@ -1,9 +1,9 @@
-# jsjkd
-
-  ![${ License }](https://img.shields.io/badge/license-${badge}-blue.svg)
+# jsdj
+ 
+  ![GNU General Public License v3.0](https://img.shields.io/badge/license-GPLv3-blue.svg)
 
   ## Description:
-  kdkld
+  skjklds
 
   ## Table of Contents
   - [Description](#description)
@@ -14,27 +14,27 @@
   - [Additional Info](#github)
 
   ## Installation:
-  lkdlkd
+  dkls
 
   ## Usage
-  klslkd
+  ksdlkds
 
   ## License
   
- MIT License
+ GNU General Public License v3.0
 
  ## Contribution:
- lkdld
+ kdsll;ds
 
  ## Test
- ldld;kl
+ dssd
 
  ## Questions
 
   If you have any question you can email me our find me in my GitHub:
     
-     * GitHub: (https://github.com/,.dsl;;dl))
-     * Email: ,s.l;d
+     * GitHub: (https://github.com/sddss))
+     * Email: ssds
 
 
 
