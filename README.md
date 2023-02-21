@@ -23,6 +23,10 @@ To install necessary dependencies, run the following command: npm install.
 
 You can use this application by running `node index.js`. Bellow I will show in the video.
 
+![]()
+
+https://youtu.be/1jZOTMuo8UA
+
 ## License
 
 MIT License
