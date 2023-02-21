@@ -123,7 +123,7 @@ function generateMarkdown(data) {
 
   If you have any question you can email me our find me in my GitHub:
     
-     * GitHub: (https://github.com/${data.github}))
+     * GitHub: https://github.com/${data.github}
      * Email: ${data.email}
 
 
