@@ -8,16 +8,22 @@ In this project I have to create an open source project on GitHub, it's importan
 
 ## Table of Contents
 
-- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution](#contribution)
 - [Test](#test)
-- [Additional Info](#github)
+- [Questions](#questions)
 
 ## Installation:
 
-To install necessary dependencies, run the following command: npm install.
+Install the necessary dependencies by running the following command: 
+
+`npm install`
+
+Run the application:
+
+`node index.js`
+
 
 ## Usage
 
@@ -35,15 +41,19 @@ https://opensource.org/licenses/MIT
 
 ## Contribution:
 
-Fork and pull request.
+Don't be shy to submit pull requests or open issues to improve the application
 
 ## Test
 
-To run tests, run the following command: npm test.
+To run tests, run the following command: 
+
+`node index.js`
+
+and try the different options in this application
 
 ## Questions
 
 If you have any question you can email me our find me in my GitHub:
 
-     * GitHub: https://github.com/felisbertotati
-     * Email: tatiana_felisberto_@hotmail.com
+  - GitHub: https://github.com/felisbertotati
+  - Email: tatiana_felisberto_@hotmail.com
